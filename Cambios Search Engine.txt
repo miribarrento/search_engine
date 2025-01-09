@@ -1,0 +1,10 @@
+Cambios Search Engine: 
+
+* En principio no toma stop words 
+* Si pongo una frase que esta repetida en dos paginas y otra que esta solo en una de ellas, me toma solo la pagina que contiene la parte distinta (positivo)
+
+- No aparece en orden logico de busqueda
+- Aparecen repetidas las palabras y duplicadas las paginas 
+- Hay oraciones completas repetidas  
+- 3 busquedas distintas no las reconoce. Osea que de una oracion que esta en dos paginas, no presenta las otras dos que son especificas, solo acepta una combinacion.
+-No acepta palabras incompletas.

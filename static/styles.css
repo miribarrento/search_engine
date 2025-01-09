@@ -1,0 +1,136 @@
+/* General Styles for Home Page */
+.home-container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.home-container h2 {
+    color: #28a745;
+    margin-bottom: 0.5em;
+}
+
+.home-container p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 1em;
+}
+
+.search-input {
+    width: 60%;
+    padding: 0.8em;
+    margin-right: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.search-button {
+    padding: 0.8em 1.5em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.search-button:hover {
+    background-color: #006400;
+}
+
+
+/* General Styles for Results Page */
+.results-container {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.results-container h2 {
+    color: #28a745;
+    margin-bottom: 1em;
+}
+
+.results-list {
+    list-style: none;
+    padding: 0;
+}
+
+.result-item {
+    margin: 1em 0;
+}
+
+.result-link {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+.result-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.no-results {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 1em;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0.8em 1.5em;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #006400;
+}
+
+
+
+/* General Layout Styles */
+body {
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+.site-header {
+    background-color: #28a745;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+/* Main Content Styles */
+.content {
+    padding: 2em;
+    margin-top: 1em;
+}

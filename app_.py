@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, url_for
 from whoosh.index import open_dir
 from whoosh.qparser import QueryParser
-from crawlerrapha import website_crawler_and_indexer
+from crawler_ import website_crawler_and_indexer
 
 app = Flask(__name__)
 
@@ -43,6 +43,13 @@ def search():
                 })
 
     return render_template('results.html', query=query, results=results)
+
+@app.route('/about')
+def about():
+    """
+    Render the about page.
+    """
+    return render_template('about.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
